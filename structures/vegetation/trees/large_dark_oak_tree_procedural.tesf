@@ -2,19 +2,19 @@ num randPrecision = 100;
 num goldenAngle = 2.39996;
 num pi = 3.14159;
 
-num trunkHeight = 4+randomInt(15);
+num trunkHeight = 6+randomInt(22);
 str trunkBlock = "minecraft:dark_oak_log";
 str rootBlockX = "minecraft:dark_oak_wood[axis=x]";
 str rootBlockZ = "minecraft:dark_oak_wood[axis=z]";
 str isReplaceable = "is_dark_oak_replaceable";
 
-num sideBranchInterval = 3+randomInt(2);
+num sideBranchInterval = 6+randomInt(3);
 num sideBranchMinHeight = 2+randomInt(3);
 num sideBranchLengthMin = 4+randomInt(2);
 num sideBranchLengthVariation = 2;
 num sideBranchVerticalVariation = 0;
 num sideBranchVerticalDirection = 1+randomInt(randPrecision)/randPrecision/2;
-num sideBranchLeafRadiusMin = 5;
+num sideBranchLeafRadiusMin = 7;
 num sideBranchLeafTranslate = 0;
 num sideBranchLeafTopFlatness = 2;
 num sideBranchLeafBottomFlatness = 3;
@@ -24,7 +24,7 @@ str sideBranchBlockX = "minecraft:dark_oak_log[axis=x]";
 str sideBranchBlockY = "minecraft:dark_oak_log[axis=y]";
 str sideBranchBlockZ = "minecraft:dark_oak_log[axis=z]";
 
-num topBranches = 4+randomInt(5);
+num topBranches = 6+randomInt(5);
 num topBranchLengthUpwardsMin = 16+randomInt(2);
 num topBranchLengthOutwardsMin = 9+randomInt(6);
 num topBranchVerticalDirection = 1;
